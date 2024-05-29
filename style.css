@@ -71,3 +71,18 @@
     width: 60px;
     padding: 5px 10px;
 }
+
+.card-part h1 {
+    font-size: 152px;
+    text-transform: uppercase;
+}
+
+.card-part h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
