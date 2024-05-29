@@ -1,0 +1,73 @@
+.header-container {
+    height: 100vh;
+    background-image: url(./images/bg-banner/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#antonio {
+    font-family: "Antonio", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46.58px;
+    text-decoration: underline;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 40px;
+    line-height: 60.21px;
+}
+
+.right-menu-icon {
+    width: 212px;
+    text-align: right;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 124px;
+    line-height: 160px;
+    margin-top: 100px;
+    letter-spacing: 3px;
+}
+
+.banner-desc {
+    font-size: 20px;
+    line-height: 30.11px;
+    margin: 50px 10px;
+    text-transform: uppercase;
+}
+
+.image {
+    background-color: var(--main-font-color);
+    width: fit-content;
+    text-align: right;
+}
+
+.image-desc {
+    text-transform: uppercase;
+}
+
+.banner-image {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border-top: 1px solid var(--main-font-color);
+    border-bottom: 1px solid var(--main-font-color);
+}
+
+.image-desc {
+    display: flex;
+    font-size: 40px;
+    margin-top: 320px;
+    text-decoration: underline;
+}
+
+.icon-size {
+    height: 60px;
+    width: 60px;
+    padding: 5px 10px;
+}
